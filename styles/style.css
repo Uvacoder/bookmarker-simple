@@ -1,0 +1,40 @@
+/* line 4, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/style.scss */
+html, body {
+  margin: 0px;
+  font-family: 'Roboto', 'Helvetica', sans-serif; }
+
+/* line 9, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/style.scss */
+.container {
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh; }
+
+/* line 15, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/style.scss */
+#widget {
+  background-color: ghostwhite;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+  /* line 19, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/style.scss */
+  #widget #myForm input, #widget button {
+    min-width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-bottom: 15px; }
+    /* line 26, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/style.scss */
+    #widget #myForm input:focus, #widget button:focus {
+      outline: none; }
+
+/* line 32, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/style.scss */
+.btn {
+  background-color: lightseagreen;
+  color: white;
+  transition: 0.5s all; }
+  /* line 36, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/style.scss */
+  .btn:hover {
+    transform: translate(0, 3px);
+    color: lightseagreen;
+    background-color: white; }
+
+/*# sourceMappingURL=style.css.map */
