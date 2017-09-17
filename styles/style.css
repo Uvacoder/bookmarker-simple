@@ -1,40 +1,75 @@
-/* line 4, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/style.scss */
+/* line 6, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/styles/style.scss */
 html, body {
   margin: 0px;
   font-family: 'Roboto', 'Helvetica', sans-serif; }
 
-/* line 9, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/style.scss */
+/* line 11, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/styles/style.scss */
 .container {
   margin: 0 auto;
   width: 80%;
   height: 100vh; }
 
-/* line 15, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/style.scss */
-#widget {
+/* line 17, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/styles/style.scss */
+#widget, #content {
   background-color: ghostwhite;
   padding: 20px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
-  /* line 19, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/style.scss */
-  #widget #myForm input, #widget button {
+  /* line 21, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/styles/style.scss */
+  #widget #myForm input, #widget .btn, #content #myForm input, #content .btn {
     min-width: 100%;
     height: 30px;
     border-radius: 5px;
     border: none;
     padding: 5px;
     margin-bottom: 15px; }
-    /* line 26, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/style.scss */
-    #widget #myForm input:focus, #widget button:focus {
+    /* line 28, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/styles/style.scss */
+    #widget #myForm input:focus, #widget .btn:focus, #content #myForm input:focus, #content .btn:focus {
       outline: none; }
 
-/* line 32, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/style.scss */
+/* line 34, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/styles/style.scss */
 .btn {
-  background-color: lightseagreen;
+  background-color: #B0EAE8;
   color: white;
   transition: 0.5s all; }
-  /* line 36, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/style.scss */
+  /* line 38, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/styles/style.scss */
   .btn:hover {
     transform: translate(0, 3px);
-    color: lightseagreen;
+    color: #B0EAE8;
     background-color: white; }
+
+/* line 45, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/styles/style.scss */
+.item {
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background-color: #FFDCC0;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: 0.7s all;
+  border: 2px solid transparent; }
+  /* line 55, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/styles/style.scss */
+  .item:hover {
+    border: 2px solid #B0EAE8; }
+
+/* line 60, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/styles/style.scss */
+a {
+  text-decoration: none; }
+
+/* line 64, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/styles/style.scss */
+.red {
+  background-color: #D91E18; }
+  /* line 66, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/styles/style.scss */
+  .red:hover {
+    background-color: white;
+    color: #D91E18; }
+
+/* line 72, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/styles/style.scss */
+.blue {
+  background-color: cornflowerblue; }
+  /* line 74, /Users/mitulshah/Desktop/Wesbites/Other/Projects/bookmark/styles/style.scss */
+  .blue:hover {
+    background-color: white;
+    color: cornflowerblue; }
 
 /*# sourceMappingURL=style.css.map */
