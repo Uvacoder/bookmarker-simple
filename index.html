@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, intitial-scale=1"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Bookmarker</title>
 	<meta name="Mitul Shah" content="Bookmark your favourite websites!"/>
 	<link rel="stylesheet" type="text/css" href="/styles/style.css">
 </head>
-<body>
+<body onload="fetchBookmarks()">
 <div class="container">
 	<section id="title">
 		<h1>Bookmarker</h1>
@@ -28,13 +28,14 @@
 			</form>
 	</section>
 	<section id="content">
-		<div id="bookmarks">
+		<div id="results">
 		
 		
 		</div>
 	</section>
 	<footer id="footer">
-	
+		<hr>
+		<p> Built by <a href="https://github.com/mitul-s"><b>Mitul Shah</b></a> 😎</p>
 	</footer>
 </div>
 <script src="script.js" type="text/javascript"></script>
